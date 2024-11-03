@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>POP!</title>
+    <link rel="stylesheet" href="CSS/lista.css">
+    <link rel="stylesheet" href="CSS/pfs.css">
+    <link rel="stylesheet" href="CSS/flex.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/banner.css">
+    <link href="https://fonts.cdnfonts.com/css/the-halloween" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/stick-no-bills" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/danson" rel="stylesheet">
+    
+                
+                
+</head>
+
+<body>
+
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="Images/Logo.png" alt="Logo" />
+            </div>
+            <nav class>
+                <ul>
+                    <li><a class="active" href=index.html>Inicio</a></li>
+                    <li><a href="product.html">Productos</a></li>
+                    <li><a href="about.html">Sobre Nosotros</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar productos..." />
+                <button type="button">🔍</button>
+            </div>
+            <div class="user">
+                <a href="user.html"><img src="Images/user.png" alt="user image"></a>
+            </div>
+            <div class="carrito">
+                <img src="Images/bolsaN.png" alt="Carrito" id="img-carrito">
+                <div id="carrito">
+                    <table id="lista-carrito">
+                        <thead>
+                            <tr>
+                                <th>Imagen</th>
+                                <th>Nombre</th>
+                                <th>Precio</th>
+                                <th>Cantidad</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody> 
+                    </table>
+                    <a href="#" id="vaciar-carrito" class="button">Vaciar Carrito</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+  
+<br>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <img src="Images/Feature-DFP-Funkoween-desktop-background.png" alt="Foto del fondo">
+            <div class="text">Suscribite hoy,Nuestro nuevo Gatálogo Digital</div>
+            <div class="text2">contarás con increíbles ofertas y descuentos exclusivos</div>
+            
+            <div class="overlay-content">
+                <button class="textB">Suscríbite</button>
+                <img src="Images/pop overlay.png" alt="imagen sobre fondo" class="overlay-image">
+            </div>
+            
+
+        </div>
+
+        <div class="mySlides fade">
+            <img src="Images/banner.jpg" alt="Foto del fondo">
+            <div class="text3">Obtén </div>
+            <div class="text4">Ofertas</div>
+            <div class="overlay-content-2">
+                <img src="Images/trick or treat.png" alt="imagen sobre fondo" class="overlay-image-2">
+            </div>
+
+        </div>
+        
+
+        <div class="mySlides fade">
+            <img src="Images/bannerhxh.jpg" alt="Foto del fondo">
+            <div class="text5">Adquiere nuestra nueva colleción de HxH</div>
+            <div class="text6">Por solo $399</div>
+            <div class="overlay-content-3">
+                <img src="Images/hxh.png" alt="Imagen sobre fondo" class="overlay-image-3">
+               
+                </div>
+        </div>
+        
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(0)"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+
+        </div>
+    </div>
+
+    
+    <main>
+        <section class="funko-container">
+            <div class="funko-card img-left">
+                <a href="product.html#Chris">
+                    <img src="Images/74267_POP_Get-Out_Chris-Washington-With-Deer_GLAM-1-WEB.png" alt="Funko de Chris">
+                    <img src="Images/74267_POP_Get-Out_Chris-Washington-With-Deer_GLAM-WEB.png" alt="Funko de Chris"
+                        class="hover-img">
+                    <h2>Chris Washington With Deer</h2>
+
+                </a>
+            </div>
+            <div class="funko-card img-right">
+                <a href="product.html#Lucifer">
+                    <img src="Images/80052_POP_Sandman_Lucifer_GLAM-1-WEB.png" alt="Funko de Lucifer">
+                    <img src="Images/80052_POP_Sandman_Lucifer_GLAM-WEB.png" alt="Funko de Lucifer" class="hover-img">
+                    <h2>Lucifer</h2>
+
+                </a>
+            </div>
+            <div class="funko-card img-left">
+                <a href="product.html#Zoro">
+                    <img src="Images/80369a_OP_S9_Zoro_POP_GLAM-1-WEB.png" alt="Funko de Zoro">
+                    <img src="Images/80369a_OP_S9_Zoro_POP_GLAM-WEB.png" alt="Funko de Zoro" class="hover-img">
+                    <h2>Zoro</h2>
+
+            </div>
+            <div class="funko-card img-right">
+                <a href="product.html#Darth">
+                    <img src="Images/80766_SWDarkSide_DarthVader-GLAM-1-WEB.png" alt="Funko de Darth Vader">
+                    <img src="Images/80766_SWDarkSide_DarthVader-GLAM-WEB.png" alt="Funko de Darth Vader"
+                        class="hover-img">
+                    <h2>DELUXE Darth Vader First Appearance</h2>
+
+                </a>
+            </div>
+            <div class="funko-card img-left">
+                <a href="product.html#Luffy">
+                    <img src="Images/80365_OP_S9_Luffy_POP_GLAM-1-WEB.png" alt="Funko de Monkey D. Luffy">
+                    <img src="Images/80365_OP_S9_Luffy_POP_GLAM-WEB.png" alt="Funko de Monkey D. Luffy"
+                        class="hover-img">
+                    <h2>Luffy</h2>
+
+                </a>
+            </div>
+            <div class="funko-card img-right">
+                <a href="product.html#Vader">
+                    <img src="Images/80767_StarWars_Darkside_VaderOnThrone_POP_GLAM-1-WEB.png" alt="Funko de Vader">
+                    <img src="Images/80767_StarWars_Darkside_VaderOnThrone_POP_GLAM-3-WEB.png" alt="Funko de Vader"
+                        class="hover-img">
+                    <h2>DELUXE Darth Vader On Throne</h2>
+
+                </a>
+            </div>
+
+            <div class="funko-card img-right">
+                <a href="product.html#Sandman">
+                    <img src="Images/80050_POP_Sandman_Dream_GLAM-1-WEB.png" alt="Funko de Sandman">
+                    <img src="Images/80050_POP_Sandman_Dream_GLAM-WEB.png" alt="Funko de Sandman" class="hover-img">
+                    <h2>Sandman</h2>
+                </a>
+            </div>
+            <div class="funko-card img-left">
+                <a href="product.html#Nami">
+                    <img src="Images/80366_OP_S9_Nami_POP_GLAM-1-WEB.png" alt="Funko de Nami">
+                    <img src="Images/80366_OP_S9_Nami_POP_GLAM-WEB.png" alt="Funko de Nami" class="hover-img">
+                    <h2>Nami</h2>
+
+                </a>
+            </div>
+            <div class="funko-card img-left">
+                <a href="product.html#Kylo">
+                    <img src="Images/80772_SW_Darkside_KyloRen_POPDeluxe_GLAM-1-WEB.png" alt="Funko de KyloRen">
+                    <img src="Images/80772_SW_Darkside_KyloRen_POPDeluxe_GLAM-3-WEB.png" alt="Funko de KyloRen"
+                        class="hover-img">
+                    <h2>Kylo Ren with Darth Vader Helmet</h2>
+
+                </a>
+            </div>
+            <div class="funko-card img-right">
+                <a href="product.html#Herb">
+                    <img src="Images/80062_SNL_HerbWelch_POP_GLAM_1-WEB.png" alt="Funko de HerbWelch">
+                    <img src="Images/80062_SNL_HerbWelch_POP_GLAM-WEB.png" alt="Funko de HerbWelch" class="hover-img">
+                    <h2>HerbWelch</h2>
+
+                </a>
+            </div>
+
+        </section>
+
+    </main>
+    <footer>
+        <p align="Center">&copy; 2024 POP! Todos los derechos reservados.<br>
+            <a href="https://funko.com" target="_blank">&copy;Todas las fotos relacionadas con Funkos y background pertenecientes a:
+                Funko.com</a>
+        </p>
+    </footer>
+
+    <script src="JS/slide.js"></script>
+    <script src="JS/carrito.js"></script>
+</body>
+
+</html>

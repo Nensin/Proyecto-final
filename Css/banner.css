@@ -1,0 +1,227 @@
+* {
+  box-sizing: border-box
+}
+
+.mySlides {
+  display: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.mySlides img {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+
+}
+
+.overlay-content {
+  position: absolute;
+  top: 50%; /* Centrado vertical */
+  left: 50%; /* Centrado horizontal */
+  transform: translate(-50%, -50%); /* Ajustarlo para centrar */
+  color: white;
+  text-align: center;
+  z-index: 10;
+  padding: 10px;
+  margin-top: -1%;
+  margin-left: 29%;
+  width: 35vw;
+}
+.overlay-content-2 {
+  position: absolute;
+  top: 50%; /* Centrado vertical */
+  left: 50%; /* Centrado horizontal */
+  transform: translate(-50%, -50%); /* Ajustarlo para centrar */
+  color: white;
+  text-align: center;
+  z-index: 10;
+  padding: 10px;
+  margin-top: -1%;
+  margin-left: 0%;
+  width: 38vw;
+}
+.overlay-content-3 {
+  position: absolute;
+  top: 50%; /* Centrado vertical */
+  left: 50%; /* Centrado horizontal */
+  transform: translate(-50%, -50%); /* Ajustarlo para centrar */
+  color: white;
+  text-align: center;
+  z-index: 10;
+  padding: 10px;
+  margin-top: -1%;
+  margin-left: 25%;
+  width: 38vw;
+
+}
+
+.overlay-image {
+  max-width: 100%; /* Tamaño de la imagen oveerlay */
+
+  
+}
+.overlay-image-2{
+  max-width: 100%; 
+  
+  
+}
+.overlay-image-3{
+  max-width: 100%; 
+ 
+  
+}
+.text {
+  position: absolute;
+  bottom: 200px;
+  left: 20px;
+  color: white;
+  font-size: 40px;
+  font-family: 'DANSON', sans-serif;
+                                                
+  padding: 10px;
+}
+
+.text2 {
+  position: absolute;
+  bottom: 180px;
+  left: 30px;
+  color: white;
+  font-size: 25px;
+  font-family: 'DANSON', sans-serif;                                
+  padding: 8px;
+}
+
+.text3{
+  position: absolute;
+  bottom: 130px;
+  left: 150px;
+  color: white;
+  font-size: 60px;
+  font-family: 'The Halloween', sans-serif;
+  padding: 10px;
+}
+.text4 {
+  position: absolute;
+  bottom: 130px;
+  left: 900px;
+  color: white;
+  font-size: 60px;
+  font-family: 'The Halloween', sans-serif;                                      
+  padding: 10px;
+}
+.text5 {
+  position: absolute;
+  bottom: 200px;
+  left: 20px;
+  color: white;
+  font-size: 50px;
+  font-family: 'Stick No Bills', sans-serif;
+                                                
+                                                
+  padding: 10px;
+}
+
+.text6 {
+  position: absolute;
+  bottom: 170px;
+  left: 25px;
+  color: white;
+  font-size: 25px;
+  font-family: 'Stick No Bills', sans-serif;                                           
+  padding: 8px;
+}
+.textB {
+  
+    position: absolute;
+    bottom: 120px;
+    left: -750px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: 'DANSON500', sans-serif;                                
+    padding: 8px;
+  
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.slideshow-container {
+  max-width: 95%;
+  position: 100px;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+}
+
+.slideshow-container .dot-container {
+  position: relative;
+  bottom: 50px;
+  left: 50px;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 20;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+
+
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width:300px) {
+  .text {
+    font-size: 11px;
+  }
+}
