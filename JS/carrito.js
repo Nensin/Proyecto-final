@@ -1,6 +1,7 @@
 // Variables
 const carrito = document.querySelector('#carrito');
-const listaProductos = document.querySelector('.funko-container'); // Ajusta según tu HTML
+const listaProductos = document.querySelector('#producto-container');
+ // Ajusta según tu HTML
 const contenedorCarrito = document.querySelector('#lista-carrito tbody');
 const vaciarCarritoBtn = document.querySelector('#vaciar-carrito'); 
 let articulosCarrito = [];
