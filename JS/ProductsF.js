@@ -1,4 +1,4 @@
-const inputCantidad = document.querySelector('.input-quantity');
+const inputCantidad = document.querySelector('.input-cantidad');
 const btnIncrement = document.querySelector('#increment');
 const btnDecrement = document.querySelector('#decrement');
 
