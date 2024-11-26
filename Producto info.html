@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>POP!</title>
+    <link rel="stylesheet" href="Css/Productos2.css">
+    <link rel="stylesheet" href="CSS/lista.css">
+    <link rel="stylesheet" href="CSS/pfs.css">
+    <link rel="stylesheet" href="CSS/header.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="Images/Logo.png" alt="Logo" />
+            </div>
+            <nav class>
+                <ul>
+                    <li><a href=index.html>Inicio</a></li>
+                    <li><a class="active" href="product.html">Productos</a></li>
+                    <li><a href="about.html">Sobre Nosotros</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar productos..." />
+                <button type="button">🔍</button>
+            </div>
+            <div class="user">
+                <a href="user.html"><img src="Images/user.png" alt="user"></a>
+            </div>
+            <div class="carrito">
+                <img src="Images/bolsaN.png" alt="Carrito" id="img-carrito">
+                <div id="carrito">
+                    <table id="lista-carrito">
+                        <thead>
+                            <tr>
+                                <th>Imagen</th>
+                                <th>Nombre</th>
+                                <th>Precio</th>
+                                <th>Cantidad</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody> <!-- Aquí se insertarán los productos desde JavaScript -->
+                    </table>
+                    <a href="#" id="vaciar-carrito" class="button">Vaciar Carrito</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-img">
+            <img src="Images/80766_SWDarkSide_DarthVader-GLAM-1-WEB.png" alt="Imagen de Darth Vader">
+        </div>
+        <div class="container-info-product">
+            <div class="container-price">
+                <span>$30.00</span>
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="container-add-cart">
+                <div class="container-cantidad">
+                    <input type="number" 
+                    placeholder="1" 
+                    value="1" min="1" 
+                    class="input-cantidad">
+                    <div class="btn-increment-decrement">
+                        <i class="fa-solid fa-chevron-up" id="increment"></i>
+                        <i class="fa-solid fa-chevron-down" id="decrement"></i>
+                    </div>
+                </div>
+                <button class="btn-add-to-cart">
+                    <i class="fa-solid fa-plus"></i>
+                    Añadir al Carrito
+                </button>
+            </div>
+            <div class="container-description">
+					<div class="title-description">
+						<h4>Descripción</h4>
+						<i class="fa-solid fa-chevron-down"></i>
+					</div>
+					<div class="text-description">
+						<p>
+							Lorem ipsum dolor, sit amet consectetur adipisicing
+							elit. Laboriosam iure provident atque voluptatibus
+							reiciendis quae rerum, maxime placeat enim cupiditate
+							voluptatum, temporibus quis iusto. Enim eum qui delectus
+							deleniti similique? Lorem, ipsum dolor sit amet
+							consectetur adipisicing elit. Sint autem magni earum est
+							dolorem saepe perferendis repellat ipsam laudantium cum
+							assumenda quidem quam, vero similique? Iusto officiis
+							quod blanditiis iste?
+						</p>
+					</div>
+				</div>
+
+				<div class="container-additional-information">
+					<div class="title-additional-information">
+						<h4>Información adicional</h4>
+						<i class="fa-solid fa-chevron-down"></i>
+					</div>
+					<div class="text-additional-information hidden">
+						<p>-----------</p>
+					</div>
+				</div>
+
+				<div class="container-reviews">
+					<div class="title-reviews">
+						<h4>Reseñas</h4>
+						<i class="fa-solid fa-chevron-down"></i>
+					</div>
+					<div class="text-reviews hidden">
+						<p>-----------</p>
+					</div>
+				</div>
+            
+            <div class="container-social">
+                <span>Compartir</span>
+                <div class="container-button-social">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a><a href="#"><i class="fa-brands fa-square-x-twitter"></i></a><a href="#"><i class="fa-brands fa-whatsapp"></i></a><a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p align="Center">&copy; 2024 POP! Todos los derechos reservados.<br>
+            <a href="https://funko.com" target="_blank">&copy;Todas las fotos relacionadas con Funkos y background
+                pertenecientes a:
+                Funko.com</a>
+        </p>
+    </footer>
+    <script src="https://kit.fontawesome.com/09e7915795.js" crossorigin="anonymous"></script>
+    <script src="JS/Producto2.js"></script>
+</body>/
+
+</html>

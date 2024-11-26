@@ -71,3 +71,25 @@ section::after {
     display: block;
     clear: both;
 }
+
+/*los media queries*/
+@media (max-width: 768px) {
+    /* Estilos para dispositivos con un ancho de pantalla menor o igual a 768px */
+
+    /* Ejemplo de ajuste de header */
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .funko-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .funko-card {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
