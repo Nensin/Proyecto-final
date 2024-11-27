@@ -5,8 +5,7 @@
     <meta charset="UTF-8" />
     <title>POP!</title>
     <link rel="stylesheet" href="Css/Productos2.css">
-    <link rel="stylesheet" href="CSS/lista.css">
-    <link rel="stylesheet" href="CSS/pfs.css">
+    <link rel="stylesheet" href="CSS/General.css">
     <link rel="stylesheet" href="CSS/header.css">
 </head>
 
@@ -17,21 +16,23 @@
                 <img src="Images/Logo.png" alt="Logo" />
             </div>
             <nav>
-                <ul>
-                    <li><a href=index.html>Inicio</a></li>
-                    <li><a class="active" href="product.html">Productos</a></li>
-                    <li><a href="about.html">Sobre Nosotros</a></li>
-                </ul>
+                <div class="container-lista">
+                    <ul>
+                        <li><a href=index.html>Inicio</a></li>
+                        <li><a class="active" href="product.html">Productos</a></li>
+                        <li><a href="about.html">Sobre Nosotros</a></li>
+                    </ul>
+                </div>
             </nav>
             <div class="search-bar">
-                <input type="text" placeholder="Buscar productos..." />
+                <input type="text" placeholder="Buscar..." />
                 <button type="button">🔍</button>
             </div>
             <div class="user">
-                <a href="user.html"><img src="Images/user.png" alt="user"></a>
+                <a href="user.html"><i class="fa-regular fa-circle-user" style="color: #e3e3e3;"></i></a>
             </div>
             <div class="carrito">
-                <img src="Images/bolsaN.png" alt="Carrito" id="img-carrito">
+                <img src="Images/cart.svg" alt="Carrito" id="img-carrito">
                 <div id="carrito">
                     <table id="lista-carrito">
                         <thead>
@@ -52,7 +53,9 @@
     </header>
     <main>
         <div class="container-img">
-            <img src="Images/80766_SWDarkSide_DarthVader-GLAM-1-WEB.png" alt="Imagen de Darth Vader">
+            <p align=center>
+                <img src="Images/80766_SWDarkSide_DarthVader-GLAM-1-WEB.png" alt="Imagen de Darth Vader">
+            </p>
         </div>
         <div class="container-info-product">
             <div class="container-price">
@@ -61,10 +64,7 @@
             </div>
             <div class="container-add-cart">
                 <div class="container-cantidad">
-                    <input type="number" 
-                    placeholder="1" 
-                    value="1" min="1" 
-                    class="input-cantidad">
+                    <input type="number" placeholder="1" value="1" min="1" class="input-cantidad">
                     <div class="btn-increment-decrement">
                         <i class="fa-solid fa-chevron-up" id="increment"></i>
                         <i class="fa-solid fa-chevron-down" id="decrement"></i>
@@ -76,49 +76,61 @@
                 </button>
             </div>
             <div class="container-description">
-					<div class="title-description">
-						<h4>Descripción</h4>
-						<i class="fa-solid fa-chevron-down"></i>
-					</div>
-					<div class="text-description">
-						<p>
-							Lorem ipsum dolor, sit amet consectetur adipisicing
-							elit. Laboriosam iure provident atque voluptatibus
-							reiciendis quae rerum, maxime placeat enim cupiditate
-							voluptatum, temporibus quis iusto. Enim eum qui delectus
-							deleniti similique? Lorem, ipsum dolor sit amet
-							consectetur adipisicing elit. Sint autem magni earum est
-							dolorem saepe perferendis repellat ipsam laudantium cum
-							assumenda quidem quam, vero similique? Iusto officiis
-							quod blanditiis iste?
-						</p>
-					</div>
-				</div>
+                <div class="title-description">
+                    <h4>Descripción</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-description">
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Laboriosam iure provident atque voluptatibus
+                        reiciendis quae rerum, maxime placeat enim cupiditate
+                        voluptatum, temporibus quis iusto. Enim eum qui delectus
+                        deleniti similique? Lorem, ipsum dolor sit amet
+                        consectetur adipisicing elit. Sint autem magni earum est
+                        dolorem saepe perferendis repellat ipsam laudantium cum
+                        assumenda quidem quam, vero similique? Iusto officiis
+                        quod blanditiis iste?
+                    </p>
+                </div>
+            </div>
 
-				<div class="container-additional-information">
-					<div class="title-additional-information">
-						<h4>Información adicional</h4>
-						<i class="fa-solid fa-chevron-down"></i>
-					</div>
-					<div class="text-additional-information hidden">
-						<p>-----------</p>
-					</div>
-				</div>
+            <div class="container-additional-information">
+                <div class="title-additional-information">
+                    <h4>Información adicional</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-additional-information hidden">
+                    <p>-----------</p>
+                </div>
+            </div>
 
-				<div class="container-reviews">
-					<div class="title-reviews">
-						<h4>Reseñas</h4>
-						<i class="fa-solid fa-chevron-down"></i>
-					</div>
-					<div class="text-reviews hidden ">
-						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil culpa eum expedita accusantium cumque quas nemo soluta veniam adipisci, id fugiat nostrum voluptas veritatis repellat ipsa sit voluptatem corrupti! Inventore. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit ducimus illum iste! Animi modi non ipsam exercitationem. Nulla, sit molestiae voluptatum explicabo deserunt magnam recusandae cum saepe debitis, ea quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet commodi harum neque atque repudiandae consequuntur architecto incidunt, consectetur deserunt ex dolore culpa soluta repellendus expedita maiores autem tenetur cupiditate ullam Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim totam dicta est, maxime fuga sunt, iste facilis corporis alias voluptatibus possimus ut reprehenderit officiis eligendi nesciunt, velit numquam dolor eveniet.</p>
-					</div>
-				</div>
-            
+            <div class="container-reviews">
+                <div class="title-reviews">
+                    <h4>Reseñas</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-reviews hidden ">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil culpa eum expedita accusantium
+                        cumque quas nemo soluta veniam adipisci, id fugiat nostrum voluptas veritatis repellat ipsa sit
+                        voluptatem corrupti! Inventore. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Suscipit ducimus illum iste! Animi modi non ipsam exercitationem. Nulla, sit molestiae
+                        voluptatum explicabo deserunt magnam recusandae cum saepe debitis, ea quas. Lorem ipsum dolor
+                        sit amet consectetur adipisicing elit. Amet commodi harum neque atque repudiandae consequuntur
+                        architecto incidunt, consectetur deserunt ex dolore culpa soluta repellendus expedita maiores
+                        autem tenetur cupiditate ullam Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+                        totam dicta est, maxime fuga sunt, iste facilis corporis alias voluptatibus possimus ut
+                        reprehenderit officiis eligendi nesciunt, velit numquam dolor eveniet.</p>
+                </div>
+            </div>
+
             <div class="container-social">
                 <span>Compartir</span>
                 <div class="container-button-social">
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a><a href="#"><i class="fa-brands fa-square-x-twitter"></i></a><a href="#"><i class="fa-brands fa-whatsapp"></i></a><a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a><a href="#"><i
+                            class="fa-brands fa-square-x-twitter"></i></a><a href="#"><i
+                            class="fa-brands fa-whatsapp"></i></a><a href="#"><i
+                            class="fa-brands fa-square-instagram"></i></a>
                 </div>
             </div>
         </div>

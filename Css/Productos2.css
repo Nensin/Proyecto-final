@@ -4,22 +4,19 @@
     box-sizing: border-box;
 
 }
-body{
-    max-width: 1200px;
-    margin: 0 auto;
 
-}
 img{
     max-width: 100%;
+    
 }
 main{
-    display: flex;
+    display:block;
     gap: 30px;
     margin-bottom: 80px;
 
 }
 .container-img{
-    background-color: #f7f7f7;
+    background-color: #773737;
     flex: 1;
 }
 
@@ -135,16 +132,16 @@ position: relative;
 .title-description h4,
 .title-additional-information h4,
 .title-reviews h4 {
-	font-weight: 300;
+	font-weight: 600;
 	color: #666;
-	font-size: 14px;
+	font-size: 20px;
 }
 .text-description,
 .text-additional-information,
 .text-reviews {
-	font-size: 13px;
+	font-size: 15px;
 	color: #252525;
-	line-height: 22px;
+	line-height: 18px;
 	margin-top: 25px;
 }
 .container-social{
@@ -155,21 +152,72 @@ position: relative;
     border-bottom: 1px solid #e4e4e4;
 }
 .container-social span{
-    font-weight: 300;
-    color: #2525;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
 }
 
 .container button social{
     display: flex;
-    gap: 15px;
+    gap: 25px;
     align-items: center;
 }
 .container button social a:link,
 .container button social a:visited{
-    color: #666;
+   
     font-size: 15px;
 
 }
 .container-button-social a:hover{
     color: aqua
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2e3334;
+    color: rgb(168, 168, 168);
+    text-align: center;
+    padding: 20px 20px;
+    
+}
+@media (min-width: 1200px) {
+    /* Ajustes específicos para pantallas de 27 pulgadas o más */
+    main{
+        gap: 30px;
+    }
+    footer {
+        padding: 40px 40px; /* Más espacio si lo deseas */
+        font-size: 18px;    /* Fuente más grande */
+    }
+    img{
+        width: 30%;
+    }
+
+    .container-img {
+        padding: 20px;      /* Añadir margen para contenido más amplio */
+    }
+
+    .container-info-product {
+        flex: 2;           /* Cambiar proporciones de flex */
+        gap: 40px;         /* Aumentar el espacio entre elementos */
+    }
+
+    .text-description,
+    .text-additional-information,
+    .text-reviews {
+        font-size: 20px;   /* Aumentar tamaño de texto */
+        line-height: 1.8;  /* Mejorar legibilidad en pantallas grandes */
+    }
+
+    .btn-add-to-cart {
+        font-size: 16px;   /* Botones más grandes */
+        padding: 15px 20px;
+    }
+}
+@media(min-width:600px){
+    
+    body{
+        font-size: 12px;
+    }
 }

@@ -1,0 +1,44 @@
+
+
+
+
+.img-left{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.img-right {
+    float: right;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+
+.img-left img {
+    float: left;
+    margin-right: 100px;
+}
+
+.img-left .info {
+    float: right;
+    margin-right: 100px;
+}
+
+
+.img-right img {
+    float: right;
+
+}
+
+.img-right .info {
+    float: left;
+    margin-left: 10px;
+}
+
+section::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
