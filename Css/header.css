@@ -143,84 +143,6 @@ li a:hover {
     background-color: rgb(28, 184, 215);
 }
 
-@media(min-width:1200px){
-    .container-lista {
-    margin: 0;
-    padding: 0;
-    display: flex; /* Asegúrate de que los elementos internos sigan alineados */
-    align-items: center; /* Alinea verticalmente la lista con el logo */
-    flex: 1; /* Permite que la lista ocupe el espacio restante */
-    background-color: rgba(255, 0, 0, 0);
-}
-
-.container-lista ul {
-    display: flex;
-    justify-content: space-around; /* Ajusta el espaciado entre los elementos */
-    width: 100%;
-    background-color: rgba(0, 0, 255, 0);
-}
-
-.container-lista li {
-    font-size: 30px; /* Ajusta el tamaño del texto para pantallas pequeñas */
-}
-
-.container-lista li a {
-    padding: 14px; /* Reduce el padding para que los elementos no ocupen mucho espacio */
-}
-
-
-
-    /*media queries del header*/
-    .header-container {
-        height: 100px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between; /* Asegura que los elementos estén alineados correctamente */
-        padding: 0 10px; /* Agrega un poco de espacio lateral si es necesario */
-    }
-    .logo {
-        height: auto;
-        margin: 0; /* Elimina cualquier margen extra */
-        flex-shrink: 0; /* Evita que el logo se reduzca demasiado */
-    }
-
-    .search-bar{
-        justify-content: center;
-        background-color: rgba(255, 0, 0, 0);
-        padding: 0px;
-        width: auto;
-        margin-right: auto;
-        
-    }
-    .search-bar input[type="text"] {
-    width: 400px;
-    font-size: 40px;
-    background-color: rgb(255, 255, 255);
-    
-    
-   }
-   .user{
-    margin-right: -6px;  
-    margin-top: 2px;
-    position: relative;
-    font-size: 38px;
-    background-color: rgba(255, 0, 0, 0);
-   }
-
-   .carrito{
-
-    margin-right: 4%;  
-    margin-top: 2px;
-    position: relative;
-    background-color: rgba(117, 156, 39, 0);
-   font-size: 38px;
-   }
-
-
-
-
-}
-
 
 
 
@@ -242,6 +164,7 @@ li a:hover {
     display: flex;
     justify-content: space-around; /* Ajusta el espaciado entre los elementos */
     width: 100%;
+    background-color: rgba(0, 0, 255, 0);
 }
 
 .container-lista li {
@@ -249,7 +172,7 @@ li a:hover {
 }
 
 .container-lista li a {
-    padding: 0px; /* Reduce el padding para que los elementos no ocupen mucho espacio */
+    padding: 6px; /* Reduce el padding para que los elementos no ocupen mucho espacio */
 }
 
 
@@ -260,6 +183,7 @@ li a:hover {
         align-items: center;
         justify-content: space-between; /* Asegura que los elementos estén alineados correctamente */
         padding: 0 10px; /* Agrega un poco de espacio lateral si es necesario */
+        background-color: rgba(0, 255, 174, 0);
     }
     .logo {
         margin: 0; /* Elimina cualquier margen extra */
@@ -275,16 +199,16 @@ li a:hover {
         
     }
     .search-bar input[type="text"] {
-    width: 60px;
+    width: 160px;
     font-size: 12px;
-    background-color: rgba(0, 255, 85, 0);
+    background-color: rgb(233, 233, 233);
     
    }
    .user{
-    margin-right: -60px;  
+    margin-right: -10px;  
     margin-top: 2px;
     position: relative;
-    font-size: 18px;
+    font-size: 35px;
     background-color: rgba(255, 0, 0, 0);
    }
 
@@ -294,7 +218,7 @@ li a:hover {
     margin-top: 2px;
     position: relative;
     background-color: rgba(117, 156, 39, 0);
-   font-size: 16px;
+   font-size: 36px;
    }
 }
 
@@ -306,7 +230,7 @@ li a:hover {
 
 
 
-@media(max-width:430px){
+@media(min-width:420px) and (max-width:700px){
     /*media queries de la lista*/
 .container-lista {
     margin: 0;
@@ -315,6 +239,7 @@ li a:hover {
     align-items: center; /* Alinea verticalmente la lista con el logo */
     flex: 1; /* Permite que la lista ocupe el espacio restante */
     background-color: rgba(0, 0, 255, 0);
+
 }
 
 .container-lista ul {
@@ -329,7 +254,7 @@ li a:hover {
 }
 
 .container-lista li a {
-    padding: 0px; /* Reduce el padding para que los elementos no ocupen mucho espacio */
+    padding: 5px; /* Reduce el padding para que los elementos no ocupen mucho espacio */
 }
 
 
@@ -340,6 +265,7 @@ li a:hover {
         align-items: center;
         justify-content: space-between; /* Asegura que los elementos estén alineados correctamente */
         padding: 0 10px; /* Agrega un poco de espacio lateral si es necesario */
+        background-color: rgba(255, 0, 0, 0);
     }
     .logo {
         margin: 0; /* Elimina cualquier margen extra */
@@ -355,9 +281,9 @@ li a:hover {
         
     }
     .search-bar input[type="text"] {
-    width: 10px;
+    width: 40px;
     font-size: 12px;
-    background-color: rgba(0, 255, 85, 0);
+    background-color: rgb(255, 255, 255);
     
    }
    .search-bar button{
