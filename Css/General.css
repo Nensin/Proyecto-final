@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    font-size: 25px;
+    
     background-color: #2e3334;
 
     
@@ -17,22 +17,32 @@ button{
     padding: 5px;
     
 }
-Footer{
-    
+footer{
+    position: absolute;
     background-color: #2e3334;
     padding: 1px;
     border: 1px #59d7d1;
     color: rgb(168, 168, 168);
+    width: 100%;
    
 }
 footer a{
     text-decoration: none;
     color:inherit;
+    
+    
 }
 
 
 
 /*los media queries*/
+
+@media(max-width:1200px){
+    footer{
+        font-size: 24px;
+    }
+    
+}
 @media (max-width: 768px) {
     /* Estilos para dispositivos con un ancho de pantalla menor o igual a 768px */
 
@@ -52,4 +62,9 @@ footer a{
         width: 100%;
         margin: 10px 0;
     }
+    footer{
+        font-size: 12px;
+    }
 }
+
+

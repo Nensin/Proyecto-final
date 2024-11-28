@@ -15,42 +15,28 @@
             <div class="logo">
                 <img src="Images/Logo.png" alt="Logo" />
             </div>
-            <nav>
-                <div class="container-lista">
+            <nav class="container-lista">
+                
                     <ul>
                         <li><a href=index.html>Inicio</a></li>
                         <li><a class="active" href="product.html">Productos</a></li>
                         <li><a href="about.html">Sobre Nosotros</a></li>
                     </ul>
-                </div>
+                
             </nav>
             <div class="search-bar">
                 <input type="text" placeholder="Buscar..." />
                 <button type="button">🔍</button>
             </div>
             <div class="user">
-                <a href="user.html"><i class="fa-regular fa-circle-user" style="color: #e3e3e3;"></i></a>
+                <a href="user.html"><i class="fa-regular fa-circle-user" id="user-img" style="color: #e3e3e3;"></i></a>
             </div>
             <div class="carrito">
-                <img src="Images/cart.svg" alt="Carrito" id="img-carrito">
-                <div id="carrito">
-                    <table id="lista-carrito">
-                        <thead>
-                            <tr>
-                                <th>Imagen</th>
-                                <th>Nombre</th>
-                                <th>Precio</th>
-                                <th>Cantidad</th>
-                                <th></th>
-                            </tr>
-                        </thead>
-                        <tbody></tbody> <!-- Aquí se insertarán los productos desde JavaScript -->
-                    </table>
-                    <a href="#" id="vaciar-carrito" class="button">Vaciar Carrito</a>
-                </div>
+                <i class="fa-solid fa-cart-shopping" alt="carrito" style="color: #ffffff;"></i> 
             </div>
         </div>
     </header>
+    
     <main>
         <div class="container-img">
             <p align=center>
