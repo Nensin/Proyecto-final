@@ -56,3 +56,23 @@ opacity: 1;
 
     color: inherit;
 }
+
+
+@media(max-width:520px){
+   
+
+    .funko-card {
+        max-width: 200px; /* Las tarjetas ocupan todo el ancho del contenedor */
+        padding: 0px; /* Ajusta el espacio interno */
+        margin-bottom: 20px;
+    }
+
+    .funko-card img {
+        width: 200px; /* Asegura que las imágenes no se estiren */
+        height: auto;
+    }
+
+    .funko-card h2 {
+        font-size: 16px; /* Reduce el tamaño del texto */
+    }
+}

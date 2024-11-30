@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  
+
 }
 
 .mySlides {
@@ -23,9 +23,12 @@ img {
 
 .overlay-content {
   position: absolute;
-  top: 50%; /* Centrado vertical */
-  left: 50%; /* Centrado horizontal */
-  transform: translate(-50%, -50%); /* Ajustarlo para centrar */
+  top: 50%;
+  /* Centrado vertical */
+  left: 50%;
+  /* Centrado horizontal */
+  transform: translate(-50%, -50%);
+  /* Ajustarlo para centrar */
   color: white;
   text-align: center;
   z-index: 10;
@@ -34,11 +37,15 @@ img {
   margin-left: 29%;
   width: 35vw;
 }
+
 .overlay-content-2 {
   position: absolute;
-  top: 50%; /* Centrado vertical */
-  left: 50%; /* Centrado horizontal */
-  transform: translate(-50%, -50%); /* Ajustarlo para centrar */
+  top: 50%;
+  /* Centrado vertical */
+  left: 50%;
+  /* Centrado horizontal */
+  transform: translate(-50%, -50%);
+  /* Ajustarlo para centrar */
   color: white;
   text-align: center;
   z-index: 10;
@@ -47,11 +54,15 @@ img {
   margin-left: 0%;
   width: 38vw;
 }
+
 .overlay-content-3 {
   position: absolute;
-  top: 50%; /* Centrado vertical */
-  left: 50%; /* Centrado horizontal */
-  transform: translate(-50%, -50%); /* Ajustarlo para centrar */
+  top: 50%;
+  /* Centrado vertical */
+  left: 50%;
+  /* Centrado horizontal */
+  transform: translate(-50%, -50%);
+  /* Ajustarlo para centrar */
   color: white;
   text-align: center;
   z-index: 10;
@@ -63,42 +74,63 @@ img {
 }
 
 .overlay-image {
-  max-width: 100%; /* Tamaño de la imagen oveerlay */
+  max-width: 100%;
+  /* Tamaño de la imagen oveerlay */
 
-  
+
 }
-.overlay-image-2{
-  max-width: 100%; 
-  
-  
+
+.overlay-image-2 {
+  background-color: rgba(0, 0, 255, 0);
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  display: block;
+  margin-right: auto;
+  object-fit: contain;
+
 }
-.overlay-image-3{
-  max-width: 100%; 
- 
-  
+
+.overlay-image-3 {
+  max-width: 100%;
+
+
 }
-.text {
+
+.text-suscribete {
   position: absolute;
   bottom: 200px;
   left: 20px;
   color: white;
   font-size: 40px;
   font-family: 'DANSON', sans-serif;
-                                                
+
   padding: 10px;
 }
 
-.text2 {
+.text-contaras {
   position: absolute;
   bottom: 180px;
   left: 30px;
   color: white;
   font-size: 25px;
-  font-family: 'DANSON', sans-serif;                                
+  font-family: 'DANSON', sans-serif;
   padding: 8px;
 }
 
-.text3{
+.textB {
+
+  position: absolute;
+  bottom: 120px;
+  left: -750px;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  font-family: 'DANSON500', sans-serif;
+  padding: 8px;
+
+}
+
+.text-obten {
   position: absolute;
   bottom: 130px;
   left: 150px;
@@ -107,47 +139,39 @@ img {
   font-family: 'The Halloween', sans-serif;
   padding: 10px;
 }
-.text4 {
+
+.text-ofertas {
   position: absolute;
   bottom: 130px;
   left: 900px;
   color: white;
   font-size: 60px;
-  font-family: 'The Halloween', sans-serif;                                      
+  font-family: 'The Halloween', sans-serif;
   padding: 10px;
 }
-.text5 {
+
+.text-adquiere {
   position: absolute;
   bottom: 200px;
   left: 20px;
   color: white;
   font-size: 50px;
   font-family: 'Stick No Bills', sans-serif;
-                                                
-                                                
+
+
   padding: 10px;
 }
 
-.text6 {
+.text-por {
   position: absolute;
   bottom: 170px;
   left: 25px;
   color: white;
   font-size: 25px;
-  font-family: 'Stick No Bills', sans-serif;                                           
+  font-family: 'Stick No Bills', sans-serif;
   padding: 8px;
 }
-.textB {
-  
-    position: absolute;
-    bottom: 120px;
-    left: -750px;
-    color: rgb(0, 0, 0);
-    font-size: 25px;
-    font-family: 'DANSON500', sans-serif;                                
-    padding: 8px;
-  
-}
+
 
 .prev,
 .next {
@@ -204,10 +228,6 @@ img {
 }
 
 
-
-
-
-
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
@@ -223,8 +243,233 @@ img {
   }
 }
 
-@media only screen and (max-width:300px) {
-  .text {
-    font-size: 11px;
+
+@media(min-width:1500px){
+  .slideshow-container {
+    height: 250px;
+  }
+
+  .overlay-content,
+  .overlay-content-2,
+  .overlay-content-3 {
+    width: 340px;
+    height: 220px;
+  }
+
+  .overlay-content img .overlay-content-2 img,
+  .overlay-content-3img {
+    background-color: rgba(0, 0, 255, 0);
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    display: block;
+    margin-right: auto;
+    object-fit: contain;
+    position: absolute;
+  }
+
+  .text-obten {
+    font-size: 50px;
+    background-color: rgba(0, 0, 255, 0);
+    bottom: 30px;
+    left: 300px;
+  }
+
+  .text-ofertas {
+
+    font-size: 50px;
+    bottom: 30px;
+    left: 870px;
+  }
+
+  .text-suscribete {
+    font-size:50px;
+    bottom: 140px;
+    left: 1px;
+  }
+
+  .text-contaras {
+    font-size: 40px;
+    bottom: 115px;
+    left: 6px;
+  }
+  .textB{
+    font-size: 40px;
+    bottom: 30px;
+    left: -910px;
+    padding: 4px;
+  }
+  .text-adquiere{
+    font-size: 60px;
+    bottom: 130px;
+    left: 20px;
+  }
+  .text-por{
+    font-size: 50px;
+    bottom: 90px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 768px){
+  .slideshow-container {
+    height: 250px;
+  }
+
+  .overlay-content,
+  .overlay-content-2,
+  .overlay-content-3 {
+    width: 260px;
+    height: 220px;
+  }
+
+  .overlay-content img .overlay-content-2 img,
+  .overlay-content-3img {
+    background-color: rgba(0, 0, 255, 0);
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    display: block;
+    margin-right: auto;
+    object-fit: contain;
+    position: absolute;
+  }
+
+  .text-obten {
+    font-size: 30px;
+    background-color: rgba(0, 0, 255, 0);
+    bottom: 80px;
+    left: 40px;
+  }
+
+  .text-ofertas {
+
+    font-size: 30px;
+    bottom: 80px;
+    left: 450px;
+  }
+
+  .text-suscribete {
+    font-size: 22px;
+    bottom: 140px;
+    left: 1px;
+  }
+
+  .text-contaras {
+    font-size: 17px;
+    bottom: 120px;
+    left: 6px;
+  }
+  .textB{
+    font-size: 20px;
+    bottom: 60px;
+    left: -370px;
+    padding: 4px;
+  }
+  .text-adquiere{
+    font-size: 25px;
+    bottom: 130px;
+    left: 20px;
+  }
+  .text-por{
+    font-size: 20px;
+    bottom: 110px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:520px){
+  .slideshow-container {
+    height: 100px;
+  }
+
+  .overlay-content,
+  .overlay-content-2,
+  .overlay-content-3 {
+    width: 140px;
+    height: 100px;
+  }
+
+  .overlay-content img .overlay-content-2 img,
+  .overlay-content-3img {
+    background-color: rgba(77, 255, 0, 0);
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    display: block;
+    margin-right: auto;
+    object-fit: contain;
+    position: absolute;
+  }
+
+  .text-obten {
+    font-size: 14px;
+    background-color: rgba(255, 0, 0, 0);
+    bottom: 8px;
+    left: 50px;
+  }
+
+  .text-ofertas {
+
+    font-size: 14px;
+    bottom: 8px;
+    left: 280px;
+  }
+
+  .text-suscribete {
+    font-size: 18px;
+    bottom: 40px;
+    left: 1px;
+  }
+
+  .text-contaras {
+    font-size: 12px;
+    bottom: 30px;
+    left: 22px;
+  }
+  .textB{
+    font-size: 10px;
+    bottom: 20px;
+    left: -300px;
+    padding: 4px;
+  }
+  .text-adquiere{
+    font-size: 20px;
+    bottom: 40px;
+    left: 20px;
+  }
+  .text-por{
+    font-size: 16px;
+    bottom: 25px;
   }
 }

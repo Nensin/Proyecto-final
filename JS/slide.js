@@ -44,13 +44,13 @@ function currentSlide(n) {
 // Automáticamente cambia la imagen cada 5 segundos
 function autoSlide() {
     showSlides(slideIndex + 1);
-    autoSlideTimer = setTimeout(autoSlide, 12000); // Cambia de imagen cada 5 segundos
+    autoSlideTimer = setTimeout(autoSlide, 120000); // Cambia de imagen cada 5 segundos
 }
 
 // Detiene el temporizador actual y lo reinicia
 function resetAutoSlide() {
     clearTimeout(autoSlideTimer); // Detiene el temporizador actual
-    autoSlideTimer = setTimeout(autoSlide, 12000); // Reinicia el temporizador
+    autoSlideTimer = setTimeout(autoSlide, 120000); // Reinicia el temporizador
 }
 
 // Inicia el slideshow automático
