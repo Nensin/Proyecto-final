@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="CSS/Index.css">
     <link rel="stylesheet" href="CSS/header.css">
     <link rel="stylesheet" href="Css/General.css">
+    <link rel="stylesheet" href="Css/flex.css">
 </head>
 
 <body>
@@ -39,147 +40,95 @@
     </header>
     <hr>
     <main>
-        <section id="lista-producto">
-            <section id="Chris">
-                <div style="background-color: rgb(28, 184, 215);">
-                    <div class="img-left">
-                        <img src="Images/74267_POP_Get-Out_Chris-Washington-With-Deer_GLAM-WEB.png" width="600"
-                            height="600" alt="funko">
-                        <div class="info">
-                            <h2>POP!<Br>Chris Washington With Deer</h2>
-                            <h4>From:GET OUT</h4>
-                            <p>$12.00</p>
-                            <button class="agregar-carrito" data-id="Chris">Agregar al carrito</button>
+        <section class="funko-container">
+            <div class="funko-card img-left">
+                <a href="Product Chris.html">
+                    <img src="Images/74267_POP_Get-Out_Chris-Washington-With-Deer_GLAM-1-WEB.png" alt="Funko de Chris">
+                    <img src="Images/74267_POP_Get-Out_Chris-Washington-With-Deer_GLAM-WEB.png" alt="Funko de Chris"
+                        class="hover-img">
+                    <h2>Chris Washington With Deer</h2>
 
+                </a>
+            </div>
+            <div class="funko-card img-right">
+                <a href="product lucifer.html">
+                    <img src="Images/80052_POP_Sandman_Lucifer_GLAM-1-WEB.png" alt="Funko de Lucifer">
+                    <img src="Images/80052_POP_Sandman_Lucifer_GLAM-WEB.png" alt="Funko de Lucifer" class="hover-img">
+                    <h2>Lucifer</h2>
 
+                </a>
+            </div>
+            <div class="funko-card img-left">
+                <a href="product zoro.html">
+                    <img src="Images/80369a_OP_S9_Zoro_POP_GLAM-1-WEB.png" alt="Funko de Zoro">
+                    <img src="Images/80369a_OP_S9_Zoro_POP_GLAM-WEB.png" alt="Funko de Zoro" class="hover-img">
+                    <h2>Zoro</h2>
+                </a>
 
-                        </div>
-                    </div>
-            </section>
-            <hr>
-            <section id="Lucifer">
+            </div>
+            <div class="funko-card img-right">
+                <a href="Producto Anakin.html">
+                    <img src="Images/80766_SWDarkSide_DarthVader-GLAM-1-WEB.png" alt="Funko de Darth Vader">
+                    <img src="Images/80766_SWDarkSide_DarthVader-GLAM-WEB.png" alt="Funko de Darth Vader"
+                        class="hover-img">
+                    <h2>DELUXE Darth Vader First Appearance</h2>
 
-                <div class="img-right">
+                </a>
+            </div>
+            <div class="funko-card img-left">
+                <a href="product luffy.html">
+                    <img src="Images/80365_OP_S9_Luffy_POP_GLAM-1-WEB.png" alt="Funko de Monkey D. Luffy">
+                    <img src="Images/80365_OP_S9_Luffy_POP_GLAM-WEB.png" alt="Funko de Monkey D. Luffy"
+                        class="hover-img">
+                    <h2>Luffy</h2>
 
-                    <div class="info">
-                        <h2>POP!<br>Lucifer</h2>
-                        <h4>From:Sandman</h4>
-                        <p>$12.00 </p>
-                        <button>Agreagar al carrito</button>
-                    </div>
-                    <img src="Images/80052_POP_Sandman_Lucifer_GLAM-WEB.png" width="600" height="600" alt="funko">
-                </div>
-            </section>
-            <hr>
-            <section id="Zoro">
-                <div style="background-color: rgb(28, 184, 215);">
-                    <div class="img-left">
-                        <img src="Images/80369a_OP_S9_Zoro_POP_GLAM-WEB.png" width="600" height="600" alt="funko">
-                        <div class="info">
-                            <h2>POP!<br>Zoro</h2>
-                            <h4>From:OnePiece</h4>
-                            <p>$12.00</p>
-                            <button>Agreagar al carrito</button>
-                        </div>
+                </a>
+            </div>
+            <div class="funko-card img-right">
+                <a href="product vader.html">
+                    <img src="Images/80767_StarWars_Darkside_VaderOnThrone_POP_GLAM-1-WEB.png" alt="Funko de Vader">
+                    <img src="Images/80767_StarWars_Darkside_VaderOnThrone_POP_GLAM-3-WEB.png" alt="Funko de Vader"
+                        class="hover-img">
+                    <h2>DELUXE Darth Vader On Throne</h2>
 
+                </a>
+            </div>
 
-                    </div>
-            </section>
-            <hr>
-            <section id="Darth">
-                <div class="img-right">
-                    <div class="info">
-                        <h2>POP!<br>DELUXE Darth Vader First Appearance</h2>
-                        <h4>From:StarWars</h4>
-                        <p>$30.00</p>
-                        <button>Agreagar al carrito</button>
-                    </div>
-                    <img src="Images/80766_SWDarkSide_DarthVader-GLAM-WEB.png" width="600" height="600" alt="funko">
-                </div>
-            </section>
-            <hr>
-            <section id="Luffy">
-                <div style="background-color: rgb(28, 184, 215);">
-                    <div class="img-left">
-                        <img src="Images/80365_OP_S9_Luffy_POP_GLAM-WEB.png" width="600" height="600" alt="funko">
-                        <div class="info">
-                            <h2>POP!<br>Luffy</h2>
-                            <h4>From:OnePiece</h4>
-                            <p>$12.00</p>
-                            <button>Agreagar al carrito</button>
-                        </div>
+            <div class="funko-card img-right">
+                <a href="product sandman.html">
+                    <img src="Images/80050_POP_Sandman_Dream_GLAM-1-WEB.png" alt="Funko de Sandman">
+                    <img src="Images/80050_POP_Sandman_Dream_GLAM-WEB.png" alt="Funko de Sandman" class="hover-img">
+                    <h2>Sandman</h2>
+                </a>
+            </div>
+            <div class="funko-card img-left">
+                <a href="product nami.html">
+                    <img src="Images/80366_OP_S9_Nami_POP_GLAM-1-WEB.png" alt="Funko de Nami">
+                    <img src="Images/80366_OP_S9_Nami_POP_GLAM-WEB.png" alt="Funko de Nami" class="hover-img">
+                    <h2>Nami</h2>
 
-                    </div>
-            </section>
-            <hr>
-            <section id="Vader">
-                <div class="img-right">
-                    <div class="info">
-                        <h2>POP!<br>DELUXE Darth Vader On Throne</h2>
-                        <h4>From:StarWars</h4>
-                        <p>$300.00</p>
-                        <button>Agreagar al carrito</button>
-                    </div>
-                    <img src="Images/80767_StarWars_Darkside_VaderOnThrone_POP_GLAM-3-WEB.png" width="600" height="600"
-                        alt="funko">
+                </a>
+            </div>
+            <div class="funko-card img-left">
+                <a href="product Kylo.html">
+                    <img src="Images/80772_SW_Darkside_KyloRen_POPDeluxe_GLAM-1-WEB.png" alt="Funko de KyloRen">
+                    <img src="Images/80772_SW_Darkside_KyloRen_POPDeluxe_GLAM-3-WEB.png" alt="Funko de KyloRen"
+                        class="hover-img">
+                    <h2>Kylo Ren with Darth Vader Helmet</h2>
 
-                </div>
-            </section>
-            <hr>
-            <section id="Sandman">
-                <div style="background-color: rgb(28, 184, 215);">
-                    <div class="img-left">
-                        <img src="Images/80050_POP_Sandman_Dream_GLAM-WEB.png" width="600" height="600" alt="funko">
-                        <div class="info">
-                            <h2>POP!<br>Dream</h2>
-                            <h4>From:Sandman</h4>
-                            <p>$12.00</p>
-                            <button>Agreagar al carrito</button>
-                        </div>
+                </a>
+            </div>
+            <div class="funko-card img-right">
+                <a href="product herb.html">
+                    <img src="Images/80062_SNL_HerbWelch_POP_GLAM_1-WEB.png" alt="Funko de HerbWelch">
+                    <img src="Images/80062_SNL_HerbWelch_POP_GLAM-WEB.png" alt="Funko de HerbWelch" class="hover-img">
+                    <h2>HerbWelch</h2>
 
-                    </div>
-            </section>
-            <hr>
-            <section id="Nami">
-                <div class="img-right">
-                    <div class="info">
-                        <h2>POP!<br>Nami(Crying)</h2>
-                        <h4>From:OnePiece</h4>
-                        <p>$12.00</p>
-                        <button>Agreagar al carrito</button>
-                    </div>
-                    <img src="Images/80366_OP_S9_Nami_POP_GLAM-WEB.png" width="600" height="600" alt="funko">
-                </div>
-            </section>
-            <hr>
-            <section id="Kylo">
-                <div style="background-color: rgb(28, 184, 215);">
-                    <div class="img-left">
-                        <img src="Images/80772_SW_Darkside_KyloRen_POPDeluxe_GLAM-3-WEB.png" width="600" height="600"
-                            alt="funko">
-                        <div class="info">
-                            <h2>POP!<br>Kylo Ren with Darth Vader Helmet</h2>
-                            <h4>From:StarWars</h4>
-                            <p>$30.00</p>
-                            <button>Agreagar al carrito</button>
-                        </div>
+                </a>
+            </div>
 
-                    </div>
-            </section>
-            <hr>
-            <section id="Herb">
-                <div class="img-right">
-                    <div class="info">
-                        <h2>POP!<br>Herb Welch</h2>
-                        <h4>From:SaturdayNightLive</h4>
-                        <p>$12.00</p>
-                        <button>Agreagar al carrito</button>
-                    </div>
-                    <img src="Images/80062_SNL_HerbWelch_POP_GLAM-WEB.png" width="600" height="600" alt="funko">
-                </div>
-            </section>
-            <hr>
         </section>
+
     </main>
 
 
