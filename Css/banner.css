@@ -196,7 +196,6 @@ img {
 
 .slideshow-container {
   max-width: 95%;
-  position: 100px;
   position: relative;
   overflow: hidden;
   margin: auto;

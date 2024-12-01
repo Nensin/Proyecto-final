@@ -4,3 +4,5 @@ Un sitio web que se compromete con sus usarios antes que con algo mas, que se pu
 
 Para este proyecto se estuvieron utilizando las siguientes tecnologías:
 HTML 5, CSS y JavaScript.
+
+El proyecto no tiene forma de instalrse, ya que no esta diseñado para ese prosposito, pero se puede ejuctar con tan solo uno de los tantos archivos html gracias a lo bien que estan conectados entre ellos.
