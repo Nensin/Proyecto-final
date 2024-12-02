@@ -1,12 +1,11 @@
-
-         
-            const form = document.getElementById('loginForm');
-        
-            
-            form.addEventListener('submit', function(event) {
-                event.preventDefault(); 
-        
-                
-                window.location.href = 'index.html';
-            });
-      
+function redirectToPreviousPage() {
+    
+    if (document.referrer) {
+       
+        window.location.href = document.referrer;
+    } else {
+       
+        window.location.href = 'index.html';  
+    }
+    return false; 
+}
