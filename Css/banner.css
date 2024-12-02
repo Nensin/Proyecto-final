@@ -243,7 +243,7 @@ img {
 }
 
 
-@media(min-width:1500px){
+@media(min-width:1300px){
   .slideshow-container {
     height: 250px;
   }
@@ -309,19 +309,7 @@ img {
   }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-@media(max-width: 768px){
+@media(min-width: 768px) and (max-width:1200px){
   .slideshow-container {
     height: 250px;
   }
@@ -329,8 +317,8 @@ img {
   .overlay-content,
   .overlay-content-2,
   .overlay-content-3 {
-    width: 260px;
-    height: 220px;
+    width: 40%;
+    height: 100%;
   }
 
   .overlay-content img .overlay-content-2 img,
@@ -346,17 +334,17 @@ img {
   }
 
   .text-obten {
-    font-size: 30px;
-    background-color: rgba(0, 0, 255, 0);
-    bottom: 80px;
-    left: 40px;
+    font-size: 5vh;
+    background-color: rgba(187, 255, 0, 0);
+    bottom: 15vh;
+    left: 10vh;
   }
 
   .text-ofertas {
 
-    font-size: 30px;
-    bottom: 80px;
-    left: 450px;
+    font-size: 5vh;
+    bottom: 15vh;
+    left: 130vh;
   }
 
   .text-suscribete {
@@ -386,42 +374,21 @@ img {
     bottom: 110px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media(max-width:520px){
+@media(min-width:430px) and (max-width:730px){
   .slideshow-container {
-    height: 100px;
+    height: 150px;
   }
 
   .overlay-content,
   .overlay-content-2,
   .overlay-content-3 {
-    width: 140px;
-    height: 100px;
+    width: 160px;
+    height: 120px;
   }
 
   .overlay-content img .overlay-content-2 img,
   .overlay-content-3img {
-    background-color: rgba(77, 255, 0, 0);
+    background-color: rgba(251, 0, 255, 0);
     max-width: 100%;
     max-height: 100%;
     width: 100%;
@@ -432,43 +399,63 @@ img {
   }
 
   .text-obten {
-    font-size: 14px;
-    background-color: rgba(255, 0, 0, 0);
-    bottom: 8px;
-    left: 50px;
+    font-size: 15px;
+    background-color: rgba(247, 0, 255, 0); 
+    bottom: 40px;
+    left: 70px;
   }
 
   .text-ofertas {
 
-    font-size: 14px;
-    bottom: 8px;
-    left: 280px;
+    font-size: 15px;
+    bottom: 40px;
+    left: 430px;
   }
 
   .text-suscribete {
-    font-size: 18px;
-    bottom: 40px;
+    font-size: 13px;
+    bottom: 75px;
     left: 1px;
   }
 
   .text-contaras {
-    font-size: 12px;
-    bottom: 30px;
-    left: 22px;
+    font-size: 14px;
+    bottom: 90px;
+    left: 1px;
   }
   .textB{
     font-size: 10px;
-    bottom: 20px;
-    left: -300px;
+    bottom: 10px;
+    left: -320px;
     padding: 4px;
   }
   .text-adquiere{
     font-size: 20px;
-    bottom: 40px;
+    bottom: 80px;
     left: 20px;
   }
   .text-por{
-    font-size: 16px;
-    bottom: 25px;
+    font-size: 20px;
+    bottom: 60px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

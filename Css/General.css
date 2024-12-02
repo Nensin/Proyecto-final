@@ -32,6 +32,46 @@ footer a{
 }
 
 
+/*Suscripción de correo*/
+.newsletter{
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+.newsletter h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.newsletter p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.newsletter form{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.newsletter input{
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+    border: 2px solid#ccc;
+    border-radius: 5px;
+}
+.newsletter button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #59d7d1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.newsletter button:hover{
+    background-color: red;
+}
+
+
 
 /*los media queries*/
 
