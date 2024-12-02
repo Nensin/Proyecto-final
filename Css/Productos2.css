@@ -16,6 +16,7 @@ main{
 
 }
 .container-img{
+    text-align: center;
     background-color: rgb(107, 212, 233);
     flex: 1;
 }
