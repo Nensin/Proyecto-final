@@ -109,7 +109,7 @@ position: relative;
     cursor: pointer;
 }
 .btn-add-to-cart:hover{
-    color: aqua;
+    color: rgb(255, 0, 0);
 }
 
 
