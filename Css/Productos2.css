@@ -1,14 +1,16 @@
+/*Ajustes generales*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
-
+/*Tamaño de las imagenes*/
 img{
     max-width: 100%;
     
 }
+/*La manera que se va a mostrar los elementos y imagenes*/
 main{
     display:block;
     gap: 30px;
@@ -20,7 +22,7 @@ main{
     background-color: rgb(107, 212, 233);
     flex: 1;
 }
-
+/* especificaciones para los productos, el precio, detalles botones*/
 .container-info-product{
     flex: 1;
     display: flex;
@@ -49,6 +51,8 @@ main{
 .container-cantidad{
 position: relative;
 }
+
+/*opciones para entrar cantidad*/
 .input-cantidad{
     background-color: #e4e4e4;
     border: none;
@@ -69,7 +73,7 @@ position: relative;
     -webkit-appearance: none;
     appearance: none;
 }
-
+/*Botones para incrementar la cantidad y sus iconos para cuando se pase el mouse por encima*/
 .btn-increment-decrement{
     display: flex;
     flex-direction: column;
@@ -91,7 +95,7 @@ position: relative;
     color: aqua;
 }
 
-
+/*Boton para añadir al carrito*/
 .btn-add-to-cart{
     border: none;
     background-color: #000000; ;
@@ -113,6 +117,8 @@ position: relative;
     display: none;
 
 }
+
+/*Contenedors para la descripcion, informacion addicional y los reviews, con los textos de cada seccion*/
 .container-description,
 .container-addiotional-information,
 .container-reviews{
@@ -146,6 +152,7 @@ position: relative;
 	line-height: 18px;
 	margin-top: 25px;
 }
+/*contender para los iconos sociales*/
 .container-social{
     display: flex;
     justify-content: space-between;
@@ -188,9 +195,10 @@ position: relative;
     
     
 
+/*Responsive Desing*/
 
 @media (max-width: 1200px) {
-    /* Ajustes específicos para pantallas de 27 pulgadas o más */
+   
     main{
         gap: 30px;
     }
@@ -200,12 +208,12 @@ position: relative;
     }
 
     .container-img {
-        padding: 20px;      /* Añadir margen para contenido más amplio */
+        padding: 20px;      
     }
 
     .container-info-product {
-        flex: 2;           /* Cambiar proporciones de flex */
-        gap: 40px;         /* Aumentar el espacio entre elementos */
+        flex: 2;           
+        gap: 40px;        
     }
     .input-cantidad{
         font-size: 23px;
@@ -219,15 +227,15 @@ position: relative;
     .title-description h4,
     .title-additional-information h4,
     .title-reviews h4, .container-social span{
-        font-size: 38px;   /* Aumentar tamaño de texto */
-        line-height: 1.8;  /* Mejorar legibilidad en pantallas grandes */
+        font-size: 38px;   
+        line-height: 1.8;  
     }
     
     .text-description,
     .text-additional-information,
     .text-reviews {
-        font-size: 28px;   /* Aumentar tamaño de texto */
-        line-height: 1.8;  /* Mejorar legibilidad en pantallas grandes */
+        font-size: 28px;   
+        line-height: 1.8;  
     }
     
     .btn-add-to-cart {
@@ -235,10 +243,6 @@ position: relative;
         padding: 15px 20px;
     }
 }
-
-
-
-
 @media(max-width:768px){
    
     main{
@@ -250,11 +254,11 @@ position: relative;
     }
 
     .container-img {
-        padding: 20px;      /* Añadir margen para contenido más amplio */
+        padding: 20px;     
     }
 
     .container-info-product {
-        flex: 2;           /* Cambiar proporciones de flex */
+        flex: 2;          
         gap: 40px;         /* Aumentar el espacio entre elementos */
     }
     .input-cantidad{

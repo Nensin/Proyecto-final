@@ -1,9 +1,11 @@
+/*ajsutes basicos*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+/*contenedor padre*/
 .contact{
     position: relative;
     min-height: 100vh;
@@ -15,6 +17,7 @@
    background-color: rgb(57, 57, 57);
     background-size: cover;
 }
+/*especifiaciones para el contenido de contact*/
 .contact .content{
     max-width: 800px;
     text-align: center;
@@ -68,6 +71,8 @@ font-size: 22px;
     color:#00bcd4 ;
 
  }
+
+ /*especifiaciones para el Form*/
  .contactForm{
     padding: 40px;
     background: #fff;
@@ -119,6 +124,9 @@ font-size: 22px;
     padding: 10px;
     font-size: 18px;
  }
+
+
+ /*Responsive Desing*/
  @media(max-width:991px){
     .contact{
     padding: 50px;

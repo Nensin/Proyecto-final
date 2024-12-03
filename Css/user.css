@@ -1,7 +1,9 @@
+/*imagen del fondo*/
 body{
    background-image: url(../Images/backround1.jpg);
     margin: 0;
 }
+/*especifiaciones para el Form*/
 .form-container {
     display: flex;             
     justify-content: center;   
@@ -64,6 +66,7 @@ body{
     font-size: 18px;
  }
 
+ /*Responsive Design*/
  @media(max-width:991px){
   
      .form-container{

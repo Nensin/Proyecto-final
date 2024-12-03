@@ -1,3 +1,4 @@
+/*contenedor principal*/
 .about-container {
     display: flex;
     flex-direction: column;
@@ -5,7 +6,7 @@
     padding: 20px;
     width: 95%;  
 }
-
+/*contenedor para cada cuadro*/
 .about-section {
     display: flex;
     flex-direction: row;  
@@ -13,12 +14,12 @@
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     padding: 20px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     align-items: center;  
     width: 90%; 
     margin: 0 auto;  
 }
-
+/*especifiaciones para el contenido*/
 .about-section img {
     width: 40%;  
     height: auto;

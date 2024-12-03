@@ -1,3 +1,4 @@
+/*Contenedor para las imagenes de los funkos*/
 .funko-container {
     display: flex; 
     flex-wrap: wrap;
@@ -5,7 +6,7 @@
     margin: 20px 0; 
     justify-content: center;
 }
-
+/*Especificaciones para las fotos de los Funkos*/
 .funko-card {
     border: 1px solid #ddd; 
     border-radius: 5px; 
@@ -17,21 +18,20 @@
     position: relative;
     overflow: hidden;
 }
-
-
 .funko-card img {
     width: 100%; 
     height: auto; 
     margin-bottom: 10px;
     transition: opacity 0.3s ease;
 }
+/*Imagen para el fondo*/
 main{
     background-image: url(../Images/backround1.jpg);/*foto perteneciente a Funko.com*/
     background-size: cover;
     background-position: center;
     
 }
-
+/*Especifiacion para que cuando el usuario pase el mouse cambie la foto*/
 .funko-card img.hover-img{
 position: absolute;
 top:0;
@@ -47,6 +47,7 @@ transition: opacity 0.3s ease;
 .funko-card:hover img.hover-img{
 opacity: 1;
 }
+/*Elimina el color de los links*/
 .funko-card a{
     text-decoration: none;
     color: black;
@@ -58,19 +59,19 @@ opacity: 1;
 }
 
 
-/* Vista por defecto (pantallas grandes) */
 
 
 
 
-/* Ajustes para pantallas medianas */
+
+/*Responsive Desing*/
 @media (max-width: 768px) {
     .funko-card {
         flex: 1 1 calc(50% - 40px); /* Dos tarjetas por fila */
     }
 }
 
-/* Ajustes para pantallas pequeñas */
+
 @media (max-width: 520px) {
     .funko-card {
         flex: 1 1 calc(100% - 40px); /* Una tarjeta por fila */
