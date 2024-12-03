@@ -11,28 +11,39 @@
 </head>
 
 <body>
+    <!-- Cabecera de la página -->
     <header>
         <div class="header-container">
+            <!-- Logo del sitio -->
             <div class="logo">
                 <img src="Images/Logo.png" alt="Logo">
             </div>
+            <!-- Barra de navegación con enlaces a otras páginas -->
             <nav class="container-lista">
-
                 <ul>
-                    <li><a href=index.html>Inicio</a></li>
+                    <!-- Enlace a la página de inicio -->
+                    <li><a href="index.html">Inicio</a></li>
+                    <!-- Enlace a la página de productos, con la clase 'active' para destacar la página actual -->
                     <li><a class="active" href="product.html">Productos</a></li>
+                    <!-- Enlace a la página de 'Sobre Nosotros' -->
                     <li><a href="about.html">Sobre Nosotros</a></li>
+                    <!-- Enlace a la página de contacto -->
                     <li><a href="contactus.html">Contact us</a></li>
                 </ul>
-
             </nav>
+            
+            <!-- Barra de búsqueda -->
             <div class="search-bar">
                 <input type="text" placeholder="Buscar...">
                 <button type="button">🔍</button>
             </div>
+            
+            <!-- Icono de usuario con enlace a la página del usuario -->
             <div class="user">
                 <a href="user.html"><i class="fa-regular fa-circle-user" id="user-img" style="color: #e3e3e3;"></i></a>
             </div>
+            
+            <!-- Icono de carrito de compras -->
             <div class="carrito">
                 <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>
             </div>
@@ -40,17 +51,22 @@
     </header>
 
     <main>
-        <div class="container-img">
-
+         <!-- Contenedor de la imagen del producto -->
+         <div class="container-img">
             <img src="Images/74267_POP_Get-Out_Chris-Washington-With-Deer_GLAM-1-WEB.png" alt="Imagen de Darth Vader">
-
         </div>
+        
+        <!-- Contenedor de la información del producto -->
         <div class="container-info-product">
+            <!-- Contenedor de precio del producto -->
             <div class="container-price">
                 <span>$20.00</span>
                 <i class="fa-solid fa-chevron-right"></i>
             </div>
+            
+            <!-- Contenedor para añadir el producto al carrito -->
             <div class="container-add-cart">
+                <!-- Contenedor para seleccionar la cantidad -->
                 <div class="container-cantidad">
                     <input type="number" placeholder="1" value="1" min="1" class="input-cantidad">
                     <div class="btn-increment-decrement">
@@ -58,16 +74,21 @@
                         <i class="fa-solid fa-chevron-down" id="decrement"></i>
                     </div>
                 </div>
+                <!-- Botón para añadir el producto al carrito -->
                 <button class="btn-add-to-cart">
                     <i class="fa-solid fa-plus"></i>
                     Añadir al Carrito
                 </button>
             </div>
+
+            <!-- Contenedor de la descripción del producto -->
             <div class="container-description">
+                <!-- Título de la descripción -->
                 <div class="title-description">
                     <h4>Descripción del personaje</h4>
                     <i class="fa-solid fa-chevron-down"></i>
                 </div>
+                <!-- Texto de la descripción -->
                 <div class="text-description">
                     <p>
                         Chris Washington, el protagonista de Get Out, es un talentoso fotógrafo cuya creatividad captura
@@ -80,11 +101,14 @@
                 </div>
             </div>
 
+            <!-- Contenedor de la información adicional del producto -->
             <div class="container-additional-information">
+                <!-- Título de la información adicional -->
                 <div class="title-additional-information">
                     <h4>Información adicional</h4>
                     <i class="fa-solid fa-chevron-down"></i>
                 </div>
+                <!-- Texto de la información adicional -->
                 <div class="text-additional-information hidden">
                     <ul>
                         <li>
@@ -106,15 +130,17 @@
                         Recomendación de edad: 3 años en adelante.
                     </li>
                     </ul>
-                    </p>
                 </div>
             </div>
 
+            <!-- Contenedor de reseñas -->
             <div class="container-reviews">
+                <!-- Título de las reseñas -->
                 <div class="title-reviews">
                     <h4>Reseñas</h4>
                     <i class="fa-solid fa-chevron-down"></i>
                 </div>
+                <!-- Texto de las reseñas (vacío por el momento) -->
                 <div class="text-reviews hidden ">
                     <p>
 
@@ -122,6 +148,7 @@
                 </div>
             </div>
 
+            <!-- Contenedor para compartir el producto en redes sociales -->
             <div class="container-social">
                 <span>Compartir</span>
                 <div class="container-button-social">

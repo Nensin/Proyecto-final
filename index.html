@@ -19,87 +19,88 @@
 
 <body>
 
-    <header>
+     <!-- Encabezado del sitio -->
+     <header>
         <div class="header-container">
+            <!-- Logo de la tienda -->
             <div class="logo">
                 <img src="Images/Logo.png" alt="Logo">
             </div>
+            <!-- Barra de navegación -->
             <nav class="container-lista">
-                
-                    <ul>
-                        <li><a class="active" href=index.html>Inicio</a></li>
-                        <li><a href="product.html">Productos</a></li>
-                        <li><a href="about.html">Sobre Nosotros</a></li><li><a href="contactus.html">contact us</a></li>
-                    </ul>
-                
+                <ul>
+                    <!-- Enlaces de navegación -->
+                    <li><a class="active" href=index.html>Inicio</a></li>
+                    <li><a href="product.html">Productos</a></li>
+                    <li><a href="about.html">Sobre Nosotros</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
             </nav>
+            <!-- Barra de búsqueda -->
             <div class="search-bar">
                 <input type="text" placeholder="Buscar...">
                 <button type="button">🔍</button>
             </div>
+            <!-- Ícono de usuario -->
             <div class="user">
                 <a href="user.html"><i class="fa-regular fa-circle-user" id="user-img" style="color: #e3e3e3;"></i></a>
             </div>
+            <!-- Ícono del carrito -->
             <div class="carrito">
-                <i class="fa-solid fa-cart-shopping"  style="color: #ffffff;"></i> 
+                <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>
             </div>
         </div>
     </header>
 
-  
-<br>
+    <!-- Contenedor del slideshow -->
     <div class="slideshow-container">
-
+    
         <div class="mySlides fade">
             <img src="Images/Feature-DFP-Funkoween-desktop-background.png" alt="Foto del fondo">
-            <div class="text-suscribete">Suscribite hoy,Nuestro nuevo Gatálogo Digital</div>
-            <div class="text-contaras">contarás con increíbles ofertas y descuentos exclusivos</div>
-            
+            <div class="text-suscribete">Suscríbete hoy, nuestro nuevo Catálogo Digital</div>
+            <div class="text-contaras">Contarás con increíbles ofertas y descuentos exclusivos</div>
+            <!-- Contenido overlay en la imagen-->
             <div class="overlay-content">
-                <button class="textB">Suscríbite</button>
-                <img src="Images/popoverlay.png" alt="imagen sobre fondo" class="overlay-image">
+                <button class="textB">Suscríbete</button>
+                <img src="Images/popoverlay.png" alt="Imagen sobre fondo" class="overlay-image">
             </div>
-            
-
         </div>
-
+       
         <div class="mySlides fade">
             <img src="Images/banner.jpg" alt="Foto del fondo">
             <div class="text-obten">Obtén </div>
             <div class="text-ofertas">Ofertas</div>
             <div class="overlay-content-2">
-                <img src="Images/trickortreat.png" alt="imagen sobre fondo" class="overlay-image-2">
+                <img src="Images/trickortreat.png" alt="Imagen sobre fondo" class="overlay-image-2">
             </div>
-
         </div>
-        
-
+    
         <div class="mySlides fade">
             <img src="Images/bannerhxh.jpg" alt="Foto del fondo">
-            <div class="text-adquiere">Adquiere nuestra nueva colleción de HxH</div>
+            <div class="text-adquiere">Adquiere nuestra nueva colección de HxH</div>
             <div class="text-por">Por solo $399</div>
             <div class="overlay-content-3">
                 <img src="Images/hxh.png" alt="Imagen sobre fondo" class="overlay-image-3">
-               
-                </div>
+            </div>
         </div>
-        
-
+        <!-- Botones para navegar en el slideshow -->
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
+        <!-- Indicadores del slideshow -->
         <div style="text-align:center">
             <span class="dot" onclick="currentSlide(0)"></span>
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
-
         </div>
     </div>
 
     
     <main>
         <br>
+
+         <!-- Contenedor de los productos -->
         <section class="funko-container">
+            <!-- Tarjetas de los productos -->
             <div class="funko-card img-left">
                 <a href="Product Chris.html">
                     <img src="Images/74267_POP_Get-Out_Chris-Washington-With-Deer_GLAM-1-WEB.png" alt="Funko de Chris">
@@ -187,6 +188,7 @@
             </div>
 
         </section>
+        <!-- Sección de suscripción -->
         <section class="newsletter">
             <div class="container">
                 <h2>!Mantente al tanto de nuestas ofertas!</h2>
@@ -200,6 +202,8 @@
         </section>
 
     </main>
+
+    
     <footer>
        &copy; 2024 POP! Todos los derechos reservados.<br>
             <a href="https://funko.com" target="_blank">&copy;Todas las fotos relacionadas con Funkos y background pertenecientes a:

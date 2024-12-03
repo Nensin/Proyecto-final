@@ -13,26 +13,33 @@
 <body>
     <header>
         <div class="header-container">
+            <!-- Logo de la página -->
             <div class="logo">
                 <img src="Images/Logo.png" alt="Logo" />
             </div>
+            
+            <!-- Barra de navegación -->
             <nav class="container-lista">
-
                 <ul>
-                    <li><a href=index.html>Inicio</a></li>
-                    <li><a class="active" href="product.html">Productos</a></li>
-                    <li><a href="about.html">Sobre Nosotros</a></li>
-                    <li><a href="contactus.html">Contact us</a></li>
+                    <li><a href=index.html>Inicio</a></li>            <!-- Enlace a la página de inicio -->
+                    <li><a class="active" href="product.html">Productos</a></li> <!-- Enlace a la página de productos -->
+                    <li><a href="about.html">Sobre Nosotros</a></li>   <!-- Enlace a la página 'Sobre Nosotros' -->
+                    <li><a href="contactus.html">Contact us</a></li>   <!-- Enlace a la página de contacto -->
                 </ul>
-
             </nav>
+            
+            <!-- Barra de búsqueda -->
             <div class="search-bar">
-                <input type="text" placeholder="Buscar..." />
-                <button type="button">🔍</button>
+                <input type="text" placeholder="Buscar..." /> <!-- Campo de entrada para búsqueda -->
+                <button type="button">🔍</button>             <!-- Botón para realizar búsqueda -->
             </div>
+            
+            <!-- Icono de usuario -->
             <div class="user">
                 <a href="user.html"><i class="fa-regular fa-circle-user" id="user-img" style="color: #e3e3e3;"></i></a>
             </div>
+            
+            <!-- Icono del carrito de compras -->
             <div class="carrito">
                 <i class="fa-solid fa-cart-shopping" alt="carrito" style="color: #ffffff;"></i>
             </div>
@@ -40,33 +47,44 @@
     </header>
 
     <main>
+        <!-- Contenedor principal que alberga toda la información del producto -->
         <div class="container-img">
-
+            <!-- Imagen del producto, en este caso una figura de Zoro -->
             <img src="Images/80369a_OP_S9_Zoro_POP_GLAM-1-WEB.png" alt="Imagen de Darth Vader">
-
         </div>
+    
+        <!-- Contenedor con toda la información sobre el producto -->
         <div class="container-info-product">
+    
+            <!-- Sección del precio -->
             <div class="container-price">
-                <span>$22.00</span>
-                <i class="fa-solid fa-chevron-right"></i>
+                <span>$22.00</span> <!-- Precio del producto -->
+                <i class="fa-solid fa-chevron-right"></i> <!-- Icono de flecha hacia la derecha -->
             </div>
+    
+            <!-- Sección para añadir el producto al carrito -->
             <div class="container-add-cart">
                 <div class="container-cantidad">
+                    <!-- Campo para seleccionar la cantidad del producto -->
                     <input type="number" placeholder="1" value="1" min="1" class="input-cantidad">
                     <div class="btn-increment-decrement">
+                        <!-- Botones para incrementar o decrementar la cantidad -->
                         <i class="fa-solid fa-chevron-up" id="increment"></i>
                         <i class="fa-solid fa-chevron-down" id="decrement"></i>
                     </div>
                 </div>
+                <!-- Botón para añadir el producto al carrito -->
                 <button class="btn-add-to-cart">
-                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-plus"></i> <!-- Icono de suma -->
                     Añadir al Carrito
                 </button>
             </div>
+    
+            <!-- Sección con la descripción del personaje -->
             <div class="container-description">
                 <div class="title-description">
-                    <h4>Descripción del personaje</h4>
-                    <i class="fa-solid fa-chevron-down"></i>
+                    <h4>Descripción del personaje</h4> <!-- Título de la descripción -->
+                    <i class="fa-solid fa-chevron-down"></i> <!-- Icono de flecha hacia abajo -->
                 </div>
                 <div class="text-description">
                     <p>
@@ -78,68 +96,69 @@
                     </p>
                 </div>
             </div>
-
+    
+            <!-- Sección con información adicional del producto -->
             <div class="container-additional-information">
                 <div class="title-additional-information">
-                    <h4>Información adicional</h4>
-                    <i class="fa-solid fa-chevron-down"></i>
+                    <h4>Información adicional</h4> <!-- Título de la información adicional -->
+                    <i class="fa-solid fa-chevron-down"></i> <!-- Icono de flecha hacia abajo -->
                 </div>
                 <div class="text-additional-information hidden">
                     <p>
-                    <ul>
-                        <li>
-                            Altura del Funko: Aproximadamente 10 cm (4 pulgadas).
-                            <br><hr>
-                            Material: Vinilo duradero de alta calidad.
-                            <br><hr>
-                            Diseño: Este Funko muestra a Zoro en su postura clásica de batalla, con sus tres espadas
-                            detalladas y su característica bandana verde atada en la cabeza.
-                            <br><hr>
-                            Peso: 150 gramos (aproximadamente).
-                            <br><hr>
-                            Presentación: Viene en una caja coleccionable con ventana transparente, perfecta para los
-                            seguidores del legendario espadachín.
-                            <br><hr>
-                            Edición: Inspirado en el intrépido espadachín del popular anime y manga One Piece, creado
-                            por Eiichiro Oda.
-                            <br><hr>
-                            Recomendación de edad: 3 años en adelante.
-                        </li>
-                    </ul>
+                        <ul>
+                            <li>
+                                Altura del Funko: Aproximadamente 10 cm (4 pulgadas).
+                                <br><hr>
+                                Material: Vinilo duradero de alta calidad.
+                                <br><hr>
+                                Diseño: Este Funko muestra a Zoro en su postura clásica de batalla, con sus tres espadas
+                                detalladas y su característica bandana verde atada en la cabeza.
+                                <br><hr>
+                                Peso: 150 gramos (aproximadamente).
+                                <br><hr>
+                                Presentación: Viene en una caja coleccionable con ventana transparente, perfecta para los
+                                seguidores del legendario espadachín.
+                                <br><hr>
+                                Edición: Inspirado en el intrépido espadachín del popular anime y manga One Piece, creado
+                                por Eiichiro Oda.
+                                <br><hr>
+                                Recomendación de edad: 3 años en adelante.
+                            </li>
+                        </ul>
                     </p>
                 </div>
             </div>
-
+    
+            <!-- Sección de reseñas del producto -->
             <div class="container-reviews">
                 <div class="title-reviews">
-                    <h4>Reseñas</h4>
-                    <i class="fa-solid fa-chevron-down"></i>
+                    <h4>Reseñas</h4> <!-- Título de las reseñas -->
+                    <i class="fa-solid fa-chevron-down"></i> <!-- Icono de flecha hacia abajo -->
                 </div>
-                <div class="text-reviews hidden ">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil culpa eum expedita accusantium
+                <div class="text-reviews hidden">
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil culpa eum expedita accusantium
                         cumque quas nemo soluta veniam adipisci, id fugiat nostrum voluptas veritatis repellat ipsa sit
-                        voluptatem corrupti! Inventore. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                        Suscipit ducimus illum iste! Animi modi non ipsam exercitationem. Nulla, sit molestiae
-                        voluptatum explicabo deserunt magnam recusandae cum saepe debitis, ea quas. Lorem ipsum dolor
-                        sit amet consectetur adipisicing elit. Amet commodi harum neque atque repudiandae consequuntur
-                        architecto incidunt, consectetur deserunt ex dolore culpa soluta repellendus expedita maiores
-                        autem tenetur cupiditate ullam Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-                        totam dicta est, maxime fuga sunt, iste facilis corporis alias voluptatibus possimus ut
-                        reprehenderit officiis eligendi nesciunt, velit numquam dolor eveniet.</p>
+                        voluptatem corrupti! Inventore.
+                    </p>
                 </div>
             </div>
-
+    
+            <!-- Sección para compartir en redes sociales -->
             <div class="container-social">
-                <span>Compartir</span>
+                <span>Compartir</span> <!-- Texto "Compartir" -->
                 <div class="container-button-social">
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a><a href="#"><i
-                            class="fa-brands fa-square-x-twitter"></i></a><a href="#"><i
-                            class="fa-brands fa-whatsapp"></i></a><a href="#"><i
-                            class="fa-brands fa-square-instagram"></i></a>
+                    <!-- Botones de redes sociales para compartir -->
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
                 </div>
             </div>
+    
         </div>
     </main>
+    
     <footer>
         &copy; 2024 POP! Todos los derechos reservados.<br>
         <a href="https://funko.com" target="_blank">&copy;Todas las fotos relacionadas con Funkos y background

@@ -12,111 +12,105 @@
 
 <body>
 
+    <!-- Encabezado de la página -->
     <header>
         <div class="header-container">
+            <!-- Logo de la página -->
             <div class="logo">
-                <img src="Images/Logo.png" alt="Logo" />
+                <img src="Images/Logo.png" alt="Logo de POP!">
             </div>
+            <!-- Menú de navegación -->
             <nav class="container-lista">
-                
-                    <ul>
-                        <li><a href=index.html>Inicio</a></li>
-                        <li><a href="product.html">Productos</a></li>
-                        <li><a class="active" href="about.html">Sobre Nosotros</a></li><li><a href="contactus.html">contact us</a></li>
-                    </ul>
-                
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="product.html">Productos</a></li>
+                    <li><a class="active" href="about.html" aria-current="page">Sobre Nosotros</a></li>
+                    <li><a href="contactus.html">Contáctanos</a></li>
+                </ul>
             </nav>
+            <!-- Barra de búsqueda -->
             <div class="search-bar">
-                <input type="text" placeholder="Buscar..." />
+                <input type="text" placeholder="Buscar...">
                 <button type="button">🔍</button>
             </div>
+            <!-- Íconos de usuario y carrito -->
             <div class="user">
-                <a href="user.html"><i class="fa-regular fa-circle-user" id="user-img" style="color: #e3e3e3;"></i></a>
+                <a href="user.html">
+                    <i class="fa-regular fa-circle-user" id="user-img" style="color: #e3e3e3;" aria-hidden="true"></i>
+                    <span class="sr-only">Perfil de usuario</span>
+                </a>
             </div>
             <div class="carrito">
-                <i class="fa-solid fa-cart-shopping" alt="carrito" style="color: #ffffff;"></i> 
+                <i class="fa-solid fa-cart-shopping" style="color: #ffffff;" aria-hidden="true"></i>
+                <span class="sr-only">Carrito de compras</span>
             </div>
         </div>
     </header>
    
     <main>
-    <section class="about-container">
-        <div class="about-section">
-            <img src="Images/HIMA.jpeg" alt="Imagen de HIMA">
-            <div class="decorative-line"></div>
-            <div class="about-content">
-                <h2>¿Dónde nací? y ¿Quién soy?</h2>
-                <p>Mi nombre es Nensin S. Pérez Fernández y mi vida comenzó hace unos 18 años... el 28 de febrero de 2006.
-                    Fui concebido en el hospital HIMA San Pablo de Caguas con 38 Semanas.
-                    Mis padres son Marta I. Fernández Robles y Shamal Pérez Quiñones. </p>
-            </div>
-        </div>
-    </section>
-    <section class="about-container">
-        <div class="about-section reverse">
-            <img src="Images/Vida academica.jpeg" alt="Foto de graduado">
-            <div class="decorative-line"></div>
-            <div class="about-content">
-                <h2>Vida Académica</h2>
-                <p>Comencé con mis estudios en la escuela Agapito Lopez Flores en Humacao, donde estuve desde
-                    kindergarten a octavo grado graduándome con un GPA de 3.96, ademas ahí fue donde pase por muchos
-                    maestros
-                    y distintas experiencias por primera vez, que me formaron para la escuela superior, asistí a la
-                    Vocacional Manuel Media Villa ubicada igualmente en Humacao. Desde noveno grado a duodecimo grado
-                    estuve en el taller de Información Tecnológica. Participé de la organización Future Bussisnes Leader
-                    of America (FBLA) donde llegue a ser Vicepresidente de liderazgo de la directiva local. Me gradué en
-                    mayo de este año con un GPA 4.0.</p>
-            </div>
-        </div>
-    </section>
-    <section class="about-container">
-        <div class="about-section">
-            <img src="Images/escudo.png" alt="Escudo de la Interamericana">
-            <div class="decorative-line"></div>
-            <div class="about-content">
-                <h2>Vida Universitaria</h2>
-                <p>Estuve haciendo admisiones a la Universidad de Puerto Rico Recinto
-                    Humacao (UPRH) y la Universidad Interamericana de Puerto Rico (UIPR)
-                    recinto Fajardo y Bayamón. En la UPRH tuve interes en Recursos humanos
-                    pensando que me ayudaría con conocimiento para hacer mi Juris Doctor
-                    en abogado corporativo, pero me di cuenta que aunque me gustan las leyes
-                    no me gusta recursos humano, por ende a pesar de haber sido admitido
-                    rechaze mi admisión. Luego en UIPR a Bayamón aplique para Ciberseguridad
-                    y en Fajardo para Ciencias de Computadora (CS), ambas me gustaban y fui
-                    admitido en ambas, pero me termine decidiendo por CS por su versatilidad
-                    y mi propio interes. </p>
-            </div>
-        </div>
-    </section>
-    <section class="about-container">
-        <div class="about-section reverse">
-            <img src="Images/hobbies.png" alt="Imagen de hobbies">
-            <div class="decorative-line"></div>
-            <div class="about-content">
-                <h2>Hobbies</h2>
-                <p>Entre mis hobbies tengo pasar tiempo con amigos y seres queridos,
-                    jugar video juegos, intento implementar más habitos de lecturas
-                    en mi día a día, programar en html salir a correr y disfrutar de
-                    las vista de mi bella isla, me gusta ejercitarme. Estos son algunos
-                    de mis hobbies que disfruto realizar a lo largo de mi semana.</p>
-            </div>
-        </div>
-    </section>
-    <section class="about-container">
-        <div class="about-section">
-            <img src="Images/proposito.webp" alt="Imagen de proposito">
-            <div class="decorative-line"></div>
-            <div class="about-content">
-                <h2>Propósito del WebSite</h2>
-                <p>Un hobbie que no mencione debido a que lo deje ya, 
-                    era coleccionar Funko Pop. Ya que me gustan y consideros que son 
-                    muy versátiles, y como coleccionista llegue a pasar dificultades 
-                    para conseguir diversos Funkos, por eso creo en crear este 
-                    website que sea una ayuda para las personas que como yo, pasan o 
-                    pasaron por esto.</p>
-            </div>
-        </div>
-    </section>
+        <main>
+            <!-- Sección: ¿Dónde nací y quién soy? -->
+            <section class="about-container">
+                <div class="about-section">
+                    <img src="Images/HIMA.jpeg" alt="Imagen de HIMA San Pablo">
+                    <div class="decorative-line"></div>
+                    <div class="about-content">
+                        <h2>¿Dónde nací? y ¿Quién soy?</h2>
+                        <p>Mi nombre es Nensin S. Pérez Fernández y mi vida comenzó hace unos 18 años... el 28 de febrero de 2006.
+                            Fui concebido en el hospital HIMA San Pablo de Caguas con 38 Semanas.
+                            Mis padres son Marta I. Fernández Robles y Shamal Pérez Quiñones.</p>
+                    </div>
+                </div>
+            </section>
+            <!-- Sección: Vida académica -->
+            <section class="about-container">
+                <div class="about-section reverse">
+                    <img src="Images/Vida academica.jpeg" alt="Foto de graduado">
+                    <div class="decorative-line"></div>
+                    <div class="about-content">
+                        <h2>Vida Académica</h2>
+                        <p>Comencé con mis estudios en la escuela Agapito López Flores en Humacao, donde estuve desde
+                            kindergarten a octavo grado graduándome con un GPA de 3.96. Asistí a la Vocacional Manuel Mediavilla en
+                            Humacao, graduándome en mayo de este año con un GPA de 4.0.</p>
+                    </div>
+                </div>
+            </section>
+            <!-- Sección: Vida universitaria -->
+            <section class="about-container">
+                <div class="about-section">
+                    <img src="Images/escudo.png" alt="Escudo de la Interamericana">
+                    <div class="decorative-line"></div>
+                    <div class="about-content">
+                        <h2>Vida Universitaria</h2>
+                        <p>Tras evaluarlo, decidí estudiar Ciencias de Computadora (CS) en la Universidad Interamericana de Puerto Rico,
+                            campus Fajardo, debido a su versatilidad y mi interés en el área tecnológica.</p>
+                    </div>
+                </div>
+            </section>
+            <!-- Sección: Hobbies -->
+            <section class="about-container">
+                <div class="about-section reverse">
+                    <img src="Images/hobbies.png" alt="Imagen representando hobbies">
+                    <div class="decorative-line"></div>
+                    <div class="about-content">
+                        <h2>Hobbies</h2>
+                        <p>Entre mis hobbies están pasar tiempo con amigos y seres queridos, jugar videojuegos, programar en HTML,
+                            ejercitarme y disfrutar de las vistas de mi isla.</p>
+                    </div>
+                </div>
+            </section>
+            <!-- Sección: Propósito del Website -->
+            <section class="about-container">
+                <div class="about-section">
+                    <img src="Images/proposito.webp" alt="Imagen de propósito">
+                    <div class="decorative-line"></div>
+                    <div class="about-content">
+                        <h2>Propósito del Website</h2>
+                        <p>Como coleccionista de Funko Pops, experimenté dificultades para conseguir ciertas figuras. Este
+                            sitio tiene como objetivo ayudar a otros coleccionistas a superar esas barreras.</p>
+                    </div>
+                </div>
+            </section>
     <!--Links para las imagenes
     https://cloudfront-us-east-1.images.arcpublishing.com/gfrmedia/6BEYGT5SZVFL7PKBTAYVE3BE6U.JPG
     https://academiadelahoz.com/wp-content/uploads/2019/09/formacion-cv.jpg
