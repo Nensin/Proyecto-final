@@ -3,6 +3,6 @@ En los recientes años a habido un auge en la cultura del colecionismo. Por un a
 Un sitio web que se compromete con sus usarios antes que con algo mas, que se pueda conseguir ese funko tan preciado para ti.
 
 Para este proyecto se estuvieron utilizando las siguientes tecnologías:
-HTML 5, CSS y JavaScript.
+HTML 5, CSS, CDFonts y JavaScript.
 
 El proyecto no tiene forma de instalrse, ya que no esta diseñado para ese prosposito, pero se puede ejuctar con tan solo uno de los tantos archivos html gracias a lo bien que estan conectados entre ellos.
