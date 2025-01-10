@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.Circulo{
+    top: 40px;
+    width: 450px; 
+    height: 450px;
+    border-radius: 50%;
+    background: conic-gradient(
+    rgb(255, 0, 0) 0deg 45deg,
+    rgba(255, 255, 0, 0.627) 45deg 90deg,
+    blue 90deg 135deg,
+    green 135deg 180deg,
+    orange 180deg 225deg,
+    rgb(224, 10, 224) 225deg 270deg,
+    cyan 270deg 315deg,
+    pink 315deg 360deg
+);
+
+    
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: transform 4s cubic-bezier(0.25, 0.1, 0.25, 1);
+    
+}
+
+.slot {
+    position: absolute;
+    width: 50%; /* La mitad del círculo */
+    height: 50%; /* La mitad del círculo */
+    top: 0; /* Comienza desde arriba */
+    left: 50%; /* Centrado horizontalmente */
+    transform-origin: 0% 100%; /* Gira desde el borde inferior */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+}
+
+
+#girarbtn{
+    font-family: 'Times New Roman', Times, serif;
+   font-size: 30px;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    margin-left: 600px;
+    background-color: rgb(72, 72, 66);
+    cursor: pointer;
+    
+}
+#girarbtn:hover{
+    background-color: rgb(150, 183, 226);
+}
+
+#abrirRuletaBtn{
+    margin-top: 10px;
+}
+
+
+
+
+.puntero{
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 25px solid black;
+        position: absolute;
+        top: 15px;
+        left: 240px;
+        transform: rotate(180deg);
+}
+

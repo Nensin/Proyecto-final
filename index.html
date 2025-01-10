@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="CSS/flex.css">
     <link rel="stylesheet" href="CSS/header.css">
     <link rel="stylesheet" href="CSS/banner.css">
+    <link rel="stylesheet" href="Css/Ruleta.css">
     <link rel="stylesheet" href="Css/modal.css">
     <link href="https://fonts.cdnfonts.com/css/the-halloween" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/stick-no-bills" rel="stylesheet">
@@ -199,6 +200,30 @@
                     <button type="submit">Suscribirse</button>
                 </form>
             </div>
+            <!-- Botón para abrir la ruleta -->
+<button id="abrirRuletaBtn">Abrir Ruleta</button>
+
+<!-- Modal de la ruleta -->
+<div id="ruletaModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="puntero"></div>
+        <div class="Circulo">
+            <div class="slot">descuento:10%</div>
+            <div class="slot">descuento:20%</div>
+            <div class="slot">descuento:30%</div>
+            <div class="slot">descuento:40%</div>
+            <div class="slot">descuento:50%</div>
+            <div class="slot">descuento:60%</div>
+            <div class="slot">descuento:70%</div>
+            <div class="slot">descuento:80%</div>
+        </div>
+        <div class="btn">
+            <button id="girarbtn">Girar</button>
+        </div>
+    </div>
+</div>
+
 
         </section>
 
@@ -225,31 +250,8 @@
     <script src="https://kit.fontawesome.com/09e7915795.js" crossorigin="anonymous"></script>
    
 
-   <!-- Botón para abrir la ruleta -->
-<button id="abrirRuletaBtn">Abrir Ruleta</button>
 
-<!-- Modal de la ruleta -->
-<div id="ruletaModal" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <div class="puntero"></div>
-        <div class="Circulo">
-            <div class="slot">Premio 1</div>
-            <div class="slot">Premio 2</div>
-            <div class="slot">Premio 3</div>
-            <div class="slot">Premio 4</div>
-            <div class="slot">Premio 5</div>
-            <div class="slot">Premio 6</div>
-            <div class="slot">Premio 7</div>
-            <div class="slot">Premio 8</div>
-        </div>
-        <div class="btn">
-            <button id="girarbtn">Girar</button>
-        </div>
-    </div>
-</div>
 
-</div>
 </body>
 
 </html>

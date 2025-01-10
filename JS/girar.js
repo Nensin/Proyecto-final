@@ -12,6 +12,6 @@ boton.addEventListener('click', () => {
     ruleta.style.transform = `rotate(${anguloActual}deg)`;
 
     setTimeout(() => {
-const sectorGanador = Math.floor(((anguloActual % 360) / 45)) + 1;          alert(`¡El sector ganador es: ${sectorGanador}!`);
+const sectorGanador = Math.floor(((anguloActual % 360) / 45)) + 1;          alert(`¡Su descuento es : ${sectorGanador}0%!`);
 }, 5000);
     });
